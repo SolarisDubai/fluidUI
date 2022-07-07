@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { InnerLayout } from '../styles/Layout'
-import logo from '../assets/img/footer.jpg'
+// import logo from '../assets/img/footer.jpg'
 import discord from '../assets/img/social-icons/discord.svg'
 import twitter from '../assets/img/social-icons/twitter.png'
 import instagram from '../assets/img/social-icons/instagram.svg'
@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footer-con">
                <div className="logo-con">
                   <div className="logo-wrap">
-                     <img src={logo} alt=""/>
+                     {/* <img src={logo} alt=""/> */}
                      <p>
                         Copyright @{(new Date().getFullYear())} Underground <br />
                         All rights reserved
@@ -37,7 +37,6 @@ const Footer = () => {
    )
 }
 const FooterStyled = styled.footer`
-   background-color: black;
    .footer-con{
       width: 1150px;
       margin: auto;

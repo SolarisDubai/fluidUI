@@ -26,7 +26,6 @@ const Team = () => {
    )
 }
 const AboutStyled = styled.section`
-   background: black;
    margin: auto;
    .c-para{
       width: 60%;

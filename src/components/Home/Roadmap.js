@@ -23,7 +23,6 @@ const Roadmap = () => {
    )
 }
 const RoadStyled = styled.section`
-   background: black;
    color: white;
    .c-para{
       width: 60%;

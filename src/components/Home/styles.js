@@ -11,6 +11,10 @@ export const Container = styled.div`
   min-height: 100vh;
   overflow: hidden;
 
+  button {
+    pointer-events: all;
+  }
+
   @media (min-width: 800px) {
     padding: 50px 30px 0px 30px;
   }
@@ -242,6 +246,7 @@ export const ButtonOpensea = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  pointer-events: all;
     
   button {
     background: #fff;

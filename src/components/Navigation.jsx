@@ -58,9 +58,7 @@ const Navigation = () => {
 const NavigationStyled = styled.nav`
    top: 0;
    left: 0;
-   background: black;
    z-index: 10000;
-   position: fixed;
    width: 100%;
    padding: 1% 10%;
    display: flex;

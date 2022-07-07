@@ -8,7 +8,7 @@ const FAQSection = () => {
    return (
       <FaqStyled id='faq'>
          <InnerLayout>
-            <div  data-aos='fade-right'>
+            <div data-aos='fade-right'>
                <h3 className="small-heading">FAQ'S</h3>
             </div>
             {/* <div className="lines">
@@ -17,7 +17,7 @@ const FAQSection = () => {
             <div className="questions-con" >
                {
                   roadquestions.map(q => (
-                     <Questions  key={q.id} {...q} />
+                     <Questions key={q.id} {...q} />
                   ))
                }
             </div>
@@ -26,7 +26,6 @@ const FAQSection = () => {
    )
 }
 const FaqStyled = styled.section`
-   background: black;
    margin: auto;
    width: 1150px;
    .c-para{
@@ -46,6 +45,7 @@ const FaqStyled = styled.section`
    }
    .questions-con{
       padding-top: 2rem;
+      pointer-events: all;
    }
 
    @media only screen and (max-width: 1300px) {
